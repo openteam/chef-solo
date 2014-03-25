@@ -1,0 +1,10 @@
+GIT
+  remote: https://tukhfatullin@bitbucket.org/tukhfatullin/chef-capify.git
+  ref: master
+  sha: c8468973a94673a05d05e4cb29e86830d8b888e9
+  specs:
+    capify (0.1.0)
+
+DEPENDENCIES
+  capify (>= 0)
+
