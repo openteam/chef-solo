@@ -1,10 +1,34 @@
 GIT
-  remote: https://tukhfatullin@bitbucket.org/tukhfatullin/chef-capify.git
+  remote: git@github.com:openteam/cookbook-capify.git
   ref: master
-  sha: c8468973a94673a05d05e4cb29e86830d8b888e9
+  sha: 68d792588175b69814daded045a494f5928ed408
   specs:
     capify (0.1.0)
 
+GIT
+  remote: git@github.com:openteam/cookbook-monit.git
+  ref: 3e5a529
+  sha: 3e5a529b5e234b3bbbfb1703f882ff9e7afc46a5
+  specs:
+    monit (0.1.1)
+
+GIT
+  remote: git@github.com:openteam/cookbook-nodejs.git
+  ref: master
+  sha: f74555827ce82a0cbded0e28847d706e23f34949
+  specs:
+    nodejs (0.1.0)
+
+GIT
+  remote: git@github.com:openteam/cookbook-rvm.git
+  ref: master
+  sha: 56abc6ee05219ac2a71a9b50af536d6501fcc6c7
+  specs:
+    rvm (0.1.0)
+
 DEPENDENCIES
   capify (>= 0)
+  monit (>= 0)
+  nodejs (>= 0)
+  rvm (>= 0)
 
